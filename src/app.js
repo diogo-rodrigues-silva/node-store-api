@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 
 require('dotenv').config();
 require('./db/db');
+require('./models/product');
 
 const indexRoute = require('./routes/index-route');
 const productRoute = require('./routes/product-route');
